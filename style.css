@@ -67,6 +67,99 @@ input {
   width: 100%;
   border-radius: 10px;
 }
+
+.div2 select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.div2 select:focus {
+  border-color: #0077cc;
+}
+
+#goal-input-container {
+  margin-top: 10px;
+}
+
+#goal-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #00b0f0;
+  border-radius: 5px;
+  outline: none;
+}
+
+#goal-input::placeholder {
+  color: #999;
+}
+.div4 select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.div4 select:focus {
+  border-color: #0077cc;
+}
+
+.plus {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.plus input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  outline: none;
+}
+
+.plus input::placeholder {
+  color: #999;
+}
+
+.btn-plus {
+  padding: 10px 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4a4747;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.par-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.left-check {
+  font-size: 3rem;
+}
+.img img {
+  filter: blur(5px);
+}
 @media screen and (max-width: 768px) {
   .container {
     width: 90%;

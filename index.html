@@ -13,6 +13,14 @@
       <div class="head">
         <h1>Add New Goal</h1>
       </div>
+      <div class="div3">
+        <label for="">Goal Type</label>
+        <div class="btn">
+          <button>Individual</button>
+          <button>Manager</button>
+          <button>Organization</button>
+        </div>
+      </div>
       <div class="div1">
         <label for="">Focus Area</label> <br />
         <input type="text" placeholder="Select your focus area" />
@@ -27,14 +35,14 @@
           <input type="text" placeholder="Enter your goal" id="goal-input" />
         </div>
       </div>
-      <div class="div3">
+      <!-- <div class="div3">
         <label for="">Goal Type</label>
         <div class="btn">
           <button>Individual</button>
           <button>Manager</button>
           <button>Organization</button>
         </div>
-      </div>
+      </div> -->
       <div class="div4">
         <label for="">Strategy</label><br />
         <select id="strategy-select" onchange="toggleStrategyInput()">
@@ -42,7 +50,7 @@
           <option value="add-own">Add Your Own Strategy</option>
         </select>
 
-        <div class="plus hidden" id="strategy-input-container">
+       <div class="plus hidden" id="strategy-input-container">
           <input
             type="text"
             id="strategy-input"
@@ -51,12 +59,7 @@
           />
           <input type="button" value="+" class="btn-plus" />
         </div>
-        <!-- <div class="plus">
-          <input type="text" />
-          <input type="button" value="+" class="btn-plus" />
-        </div> -->
-      </div>
-      <div class="par-div">
+        <div class="par-div">
         <div class="check-box">
           <input type="checkbox" class="left-check" checked />
         </div>

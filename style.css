@@ -4,15 +4,13 @@
   margin: 0;
   font-family: "Avenir", "Avenir Next", sans-serif;
 }
-.spacer {
-  height: 4rem;
-}
-.container {
+
+.add-goal-container {
   width: 90%;
   margin: 2rem auto;
   align-items: center;
 }
-label {
+.add-goal-label {
   font-size: 1.1rem;
   font-weight: 800;
   color: #4a4747;
@@ -24,14 +22,14 @@ label {
   text-align: left;
   margin-bottom: 2rem;
 }
-input {
+.add-goal-input {
   border: 1px solid black;
   padding: 0.5rem;
   width: 100%;
   /* border-radius: 10px; */
   margin-bottom: 1.5rem;
 }
-.btn button {
+.add-goal-type .btn button {
   width: 120px;
   border: 1px solid black;
   padding: 0.5rem;
@@ -48,27 +46,27 @@ input {
   color: white;
   font-size: 1.5rem;
 }
-.div5 {
+.add-goal-btn {
   display: flex;
   justify-content: right;
   gap: 1rem;
 }
-.div5 button {
+.add-goal-btn button {
   width: 100px;
   padding: 0.5rem;
   color: white;
   background-color: #1e90ff;
   border-radius: 10px;
 }
-.img {
+/* .img {
   margin-top: 1rem;
 }
 .img img {
   width: 100%;
   border-radius: 10px;
-}
+} */
 
-.div2 select {
+.add-goal-name select {
   width: 100%;
   padding: 10px;
   font-size: 14px;
@@ -80,27 +78,15 @@ input {
   margin-bottom: 2rem;
 }
 
-.div2 select:focus {
+/* .div2 select:focus {
   border-color: #0077cc;
-}
+} */
 
-#goal-input-container {
+.goal-input-container {
   margin-top: 10px;
 }
 
-#goal-input {
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  border: 2px solid #00b0f0;
-  /* border-radius: 5px; */
-  outline: none;
-}
-
-#goal-input::placeholder {
-  color: #999;
-}
-.div4 select {
+.add-goal-strategy select {
   width: 100%;
   padding: 10px;
   font-size: 14px;
@@ -111,7 +97,7 @@ input {
   cursor: pointer;
 }
 
-.div4 select:focus {
+.add-goal-strategy select:focus {
   border-color: #0077cc;
 }
 
@@ -154,22 +140,20 @@ input {
   justify-content: space-between;
   margin-top: 1.5rem;
 }
-.left-check {
+.goal-left-check {
   font-size: 3rem;
 }
-.img img {
-  filter: blur(5px);
-}
+
 @media screen and (max-width: 768px) {
-  .container {
+  .add-goal-container {
     width: 90%;
   }
 }
 @media screen and (max-width: 600px) {
-  .container {
+  .add-goal-container {
     width: 80%;
   }
-  .btn button {
+  .add-goal-btn button {
     width: 110px;
   }
 }

@@ -8,12 +8,12 @@
     <title>Goal</title>
   </head>
   <body>
-    <div class="spacer"></div>
-    <div class="container">
+    
+    <div class="add-goal-container">
       <div class="head">
         <h1>Add New Goal</h1>
       </div>
-      <div class="div3">
+      <div class="add-goal-type">
         <label for="">Goal Type</label>
         <div class="btn">
           <button>Individual</button>
@@ -21,30 +21,22 @@
           <button>Organization</button>
         </div>
       </div>
-      <div class="div1">
-        <label for="">Focus Area</label> <br />
-        <input type="text" placeholder="Select your focus area" />
+      <div class="add-goal-focus">
+        <label class="add-goal-label"for="">Focus Area</label> <br />
+        <input type="text" class="add-goal-input" placeholder="Select your focus area" />
       </div>
-      <div class="div2">
-        <label for="">Goal Name</label> <br />
+      <div class="add-goal-name">
+        <label class="add-goal-label">Goal Name</label> <br />
         <select id="goal-select" onchange="toggleGoalInput()">
           <option value="">Select a goal</option>
           <option value="addGoal">Add your goal</option>
         </select>
-        <div id="goal-input-container" style="display: none; margin-top: 10px">
-          <input type="text" placeholder="Enter your goal" id="goal-input" />
+        <div class="goal-input-container" style="display: none; margin-top: 10px">
+          <input type="text"  class="add-goal-input" placeholder="Enter your goal" id="goal-input" />
         </div>
       </div>
-      <!-- <div class="div3">
-        <label for="">Goal Type</label>
-        <div class="btn">
-          <button>Individual</button>
-          <button>Manager</button>
-          <button>Organization</button>
-        </div>
-      </div> -->
-      <div class="div4">
-        <label for="">Strategy</label><br />
+      <div class="add-goal-strategy">
+        <label class="add-goal-label">Strategy</label><br />
         <select id="strategy-select" onchange="toggleStrategyInput()">
           <option value="">Select a Strategy</option>
           <option value="add-own">Add Your Own Strategy</option>
@@ -54,6 +46,7 @@
           <input
             type="text"
             id="strategy-input"
+            class="add-goal-input"
             placeholder="Enter your strategy"
             required
           />
@@ -61,19 +54,13 @@
         </div>
         <div class="par-div">
         <div class="check-box">
-          <input type="checkbox" class="left-check" checked />
+          <input type="checkbox" class="goal-left-check" checked />
         </div>
-        <div class="div5">
+        <div class="add-goal-btn">
           <button>Add</button>
           <button>Cancel</button>
         </div>
       </div>
-
-      <div class="img">
-        <img src="./images/image.png" alt="image" />
-      </div>
     </div>
-    <div class="spacer"></div>
-    <script src="script.js"></script>
   </body>
 </html>

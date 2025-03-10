@@ -29,6 +29,11 @@
 
   margin-bottom: 1.5rem;
 }
+.add-goal-type {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
 .add-goal-type .btn button {
   width: 120px;
   border: 1px solid black;

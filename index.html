@@ -13,17 +13,23 @@
       <div class="head">
         <h1>Add New Goal</h1>
       </div>
-      <div class="add-goal-type">
-        <label for="">Goal Type</label>
-        <div class="btn">
-          <button>Individual</button>
-          <button>Manager</button>
-          <button>Organization</button>
-        </div>
-      </div>
+      
       <div class="add-goal-focus">
         <label class="add-goal-label"for="">Focus Area</label> <br />
         <input type="text" class="add-goal-input" placeholder="Select your focus area" />
+      </div>
+      <div class="add-goal-type">     
+        <div class="add-goal-type-group">
+          <div class="btn">
+            <button>Individual</button>
+            <button>Manager</button>
+            <button>Organization</button>  
+          </div> 
+          <div class="add-goal-desc">
+            <p>Goal type</p>
+          </div>
+        </div>
+       
       </div>
       <div class="add-goal-name">
         <label class="add-goal-label">Goal Name</label> <br />
@@ -35,6 +41,7 @@
           <input type="text"  class="add-goal-input" placeholder="Enter your goal" id="goal-input" />
         </div>
       </div>
+      
       <div class="add-goal-strategy">
         <label class="add-goal-label">Strategy</label><br />
         <select id="strategy-select" onchange="toggleStrategyInput()">

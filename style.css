@@ -90,7 +90,7 @@
   border-color: #0077cc;
 }
 
-.plus {
+/* .plus {
   margin-top: 10px;
   display: flex;
   gap: 8px;
@@ -118,7 +118,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 
 .hidden {
   display: none;
